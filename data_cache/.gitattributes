@@ -1,0 +1,16 @@
+quic_trojan_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_vless_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_ss_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_vless_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_ss_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_trojan_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_trojan_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_vmess_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_ss_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_trojan_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_vmess_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_ss_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+quic_vmess_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_vless_seq2seq.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_vless_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
+tcp_vmess_seqclassify.cache.pk.gz filter=lfs diff=lfs merge=lfs -text
