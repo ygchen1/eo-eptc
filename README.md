@@ -1,4 +1,3 @@
-````markdown
 # EO-EPTC
 
 Implementation of **“EO-EPTC: End-to-End Original Traffic-Based Encrypted Proxy Traffic Classification Framework”**.
@@ -10,7 +9,6 @@ This repository provides an end-to-end pipeline for:
 - Building cached datasets for sequence-to-sequence (seq2seq) and classification tasks  
 - Training a seq2seq model and evaluating classification performance  
 
----
 
 ## 1. Project Structure
 
@@ -31,7 +29,6 @@ This repository provides an end-to-end pipeline for:
   2. Uses the trained seq2seq model to “translate” sequence features in the **seqclassify** dataset  
   3. Evaluates the final classification performance  
 
----
 
 ## 2. System Requirements
 
@@ -42,7 +39,6 @@ This repository provides an end-to-end pipeline for:
 
 Make sure CUDA and appropriate NVIDIA drivers are correctly installed if you plan to use GPU acceleration.
 
----
 
 ## 3. Python Requirements
 
@@ -54,7 +50,6 @@ Tested with:
 - `scikit_learn==1.3.2`
 - `torch==2.0.1`
 
----
 
 ## 4. Data Cache Format
 
@@ -118,13 +113,11 @@ Example:
 
 These sequences are used as inputs to the seq2seq model and subsequent classification models.
 
----
 
 ## 5. Usage
 
-> **Quick start:**
-> If you have already downloaded the **`data_cache`** files (e.g., `tcp_ss_seq2seq.cache.pk.gz`, `tcp_ss_seqclassify.cache.pk.gz`),
-> you can **skip Steps 1–4** below and directly run:
+**Quick start:**
+If you have already downloaded the **`data_cache`** files (e.g., `tcp_ss_seq2seq.cache.pk.gz`, `tcp_ss_seqclassify.cache.pk.gz`), you can **skip Steps 1–4** below and directly run:
 >
 > ```bash
 > python 05classify.py
